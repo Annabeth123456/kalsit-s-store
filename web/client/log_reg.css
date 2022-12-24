@@ -1,0 +1,96 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: #fbfbfb;
+}
+.header{
+    /* background: lightgray; */
+    background: #d8e3cb;
+    padding: 3px;;
+}
+.logo{
+    /* float:left; */
+    width:250px;
+    height:80px;
+}
+.box{
+    /* margin设置整块居中，text-align设置内部图片和文字居中 */
+    margin:0 auto;
+    text-align: center;
+    background-color: #fff;
+    width:400px;
+    height: 500px;
+    padding: 10px;
+}
+.d1,.d2{
+    height: 30px;
+    /* background: rgb(242, 242, 242); */
+    height:60px;
+    color:black;
+    /* 文字大小用font-size表示 */
+    font-size:20px;
+    margin:20px;
+}
+.re_sure{
+    height: 40px;
+    background: #bbd69d;
+    color:white;
+    /* 文字大小用font-size表示 */
+    font-size:20px;
+    margin:20px;
+    text-align: center;
+    width:335px;
+    padding: 10px;
+
+
+    /*float: inline-end;*/
+    /* position: fixed; */
+    position:absolute;
+    bottom:0px;
+}
+a{
+    display: inline-block;
+    color:white;
+
+}
+a:hover{
+    /* backgournd的颜色是鼠标触碰之后块的颜色，color是链接文字的颜色 */
+
+    color:#718d50;
+}
+input{
+    box-sizing: border-box;
+    text-align:center;
+    font-size:1.0em;
+    height:2.6em;
+    border:1px solid #c8cccf;
+    color:#6a6f77;
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    display:block;
+    outline:0;
+    padding:0 1em;
+    text-decoration:none;
+    width:100%;
+}
+.log_reg_header{
+    vertical-align:middle;
+    float: right;
+}
+.log_reg_header a{
+    width:80px;
+    /* height: 50px; */
+    display: inline-block;
+    color:grey;
+    /* 链接去下划线 */
+    text-decoration: none;
+    text-align: center;
+    /* 文字竖直居中 */
+    line-height: 50px;
+}
+.log_reg_header a:hover{
+    background-color: #718d50;
+    color:white;
+}
+

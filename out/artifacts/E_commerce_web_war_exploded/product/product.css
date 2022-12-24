@@ -1,0 +1,52 @@
+body{
+    background-color: #fbfbfb;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* background: lightgray; */
+    background: #d8e3cb;
+    padding: 3px;;
+}
+.logo{
+    /* float:left; */
+    width:250px;
+    height:80px;
+}
+.log_reg_header{
+    vertical-align:middle;
+    float: right;
+}
+.log_reg_header a{
+    width:80px;
+    /* height: 50px; */
+    display: inline-block;
+    color:grey;
+    /* 链接去下划线 */
+    text-decoration: none;
+    text-align: center;
+    /* 文字竖直居中 */
+    line-height: 50px;
+}
+.log_reg_header a:hover{
+    background-color: #718d50;
+    color:white;
+}
+.main{
+    margin: 10px;
+}
+/*width="350" height="500"*/
+li img{
+    width: 300px;
+    height: 450px;
+}
+li{
+    margin:20px;
+    display: inline-block;
+}
+
+
